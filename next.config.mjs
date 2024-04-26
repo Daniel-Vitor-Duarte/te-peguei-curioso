@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    basePath: "/te-peguei-curioso",
+    basePath: "/fluxo",
     trailingSlash: true,
     reactStrictMode: true,
     images: {

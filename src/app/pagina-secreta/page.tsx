@@ -5,6 +5,8 @@ import Retiro from "public/images/video-retiro.jpg"
 import Prints from "public/images/prints.png"
 import PrintsM from "public/images/prints-mobile.png"
 import Footer from "@/app/components/footer";
+import Script from "next/script";
+import Video from "../components/video";
 
 
 export default function Home() {
@@ -26,11 +28,13 @@ export default function Home() {
           Você tem um baita desconto para virar meu mentorado do Fluxo
         </h2>
       </section>
-      <section className="mt-[1.68rem] w-fit mx-auto flex flex-col items-center pb-[2.38rem]">
-        <Image src={Retiro} alt="video retiro" />
+      <div className="w-[80%] sm:w-[90%] mx-auto mt-[1.69rem] ">
+        <Video />
+      </div>
+      <section className="mt-[1.68rem] w-fit mx-auto flex flex-col items-center pb-[2.38rem]  ">
         <a href="https://bit.ly/rev-abril2024" target="_blank">
-          <button className="bg-button py-[.74rem] sm:py-[.54rem] w-[23.125rem] sm:w-[10.8125rem] rounded-[.625rem] border border-[#858585] mt-[1.94rem] hover:scale-105 transition-all">
-            <p className="text-[#EFBD61] text-[1.5rem] sm:text-[1rem] font-semibold">
+          <button className="bg-[#EFBD61] py-[.74rem] sm:py-[.54rem] w-[23.125rem] sm:w-[10.8125rem] rounded-[.625rem] border border-[#FED469] mt-[1.94rem] hover:scale-105 transition-all">
+            <p className="text-white text-[1.5rem] sm:text-[1rem] font-semibold">
               Seja  rápido
             </p>
           </button>
@@ -41,8 +45,8 @@ export default function Home() {
           Quero mostrar o seu print no próximo Retiro
         </h2>
         <a href="https://bit.ly/rev-abril2024" target="_blank">
-          <button className="bg-button py-[.74rem] sm:py-[.54rem] w-[23.125rem] sm:w-[16.5rem] rounded-[.625rem] border border-[#858585] mt-[1.94rem] sm:mt-3 hover:scale-105 transition-all">
-            <p className="text-[#EFBD61] text-[1.5rem] sm:text-[1rem] font-semibold">
+          <button className="bg-[#EFBD61] py-[.74rem] sm:py-[.54rem] w-[23.125rem] sm:w-[16.5rem] rounded-[.625rem] border border-[#FED469] mt-[1.94rem] sm:mt-3 hover:scale-105 transition-all">
+            <p className="text-white text-[1.5rem] sm:text-[1rem] font-semibold">
               Quero entrar no Fluxo
             </p>
           </button>

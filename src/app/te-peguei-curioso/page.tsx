@@ -2,9 +2,9 @@
 import Image from "next/image";
 import DataLayer from "@/app/DataLayer";
 import Logo from "public/icons/logo.png"
-import Countdown from "./components/CountDown";
+import Countdown from "../components/CountDown";
 import { useState } from "react";
-import Footer from "./components/footer";
+import Footer from "../components/footer";
 
 
 export default function Home() {
